@@ -10,6 +10,28 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+#el-container{
+  display: flex;
+  margin-top: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.element{
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  text-align: center;
+  padding: 10px;
 }
 
 /* do not edit this footer */
